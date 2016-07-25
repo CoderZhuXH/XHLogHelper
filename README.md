@@ -38,13 +38,11 @@
 
 ##  安装
 ### 手动添加:<br>
-*   1.将 XHLogHelper 文件夹添加到工程目录中<br>
-*   2.导入 XHLogHelper.h
+*   1.将 XHLogHelper 文件夹添加到工程目录中即可<br>
 
 ### CocoaPods:<br>
 *   1.在 Podfile 中添加 pod 'XHLogHelper'<br>
 *   2.执行 pod install 或 pod update<br>
-*   3.导入 XHLogHelper.h
 
 ### Tips
 *	如果你发现你执行pod install后,导入的不是最新的,请删除Podfile.lock文件,在执行一次 pod install
