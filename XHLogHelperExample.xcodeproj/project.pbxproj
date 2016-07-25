@@ -13,6 +13,8 @@
 		4B14FE491D42F91C0014A493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B14FE471D42F91C0014A493 /* LaunchScreen.storyboard */; };
 		4B14FE541D42F9550014A493 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14FE521D42F9550014A493 /* ViewController.m */; };
 		4B14FE551D42F9550014A493 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B14FE531D42F9550014A493 /* ViewController.xib */; };
+		4B950A711D45E74100F4BE8C /* NSDictionary+XHLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B950A701D45E74100F4BE8C /* NSDictionary+XHLogHelper.m */; };
+		4B950A741D45EA7700F4BE8C /* NSArray+XHLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B950A731D45EA7700F4BE8C /* NSArray+XHLogHelper.m */; };
 		4BA703D31D42FBB8008E27A7 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA703B01D42FBB8008E27A7 /* AFHTTPSessionManager.m */; };
 		4BA703D41D42FBB8008E27A7 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA703B31D42FBB8008E27A7 /* AFNetworkReachabilityManager.m */; };
 		4BA703D51D42FBB8008E27A7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA703B51D42FBB8008E27A7 /* AFSecurityPolicy.m */; };
@@ -31,7 +33,6 @@
 		4BA703E21D42FBB8008E27A7 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA703D01D42FBB8008E27A7 /* UIRefreshControl+AFNetworking.m */; };
 		4BA703E31D42FBB8008E27A7 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA703D21D42FBB8008E27A7 /* UIWebView+AFNetworking.m */; };
 		4BA703E61D42FBC6008E27A7 /* XHNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA703E51D42FBC6008E27A7 /* XHNetwork.m */; };
-		4BA703ED1D434437008E27A7 /* XHLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA703EC1D434437008E27A7 /* XHLogHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,10 @@
 		4B14FE511D42F9550014A493 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4B14FE521D42F9550014A493 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4B14FE531D42F9550014A493 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		4B950A6F1D45E74100F4BE8C /* NSDictionary+XHLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XHLogHelper.h"; sourceTree = "<group>"; };
+		4B950A701D45E74100F4BE8C /* NSDictionary+XHLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XHLogHelper.m"; sourceTree = "<group>"; };
+		4B950A721D45EA7700F4BE8C /* NSArray+XHLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XHLogHelper.h"; sourceTree = "<group>"; };
+		4B950A731D45EA7700F4BE8C /* NSArray+XHLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XHLogHelper.m"; sourceTree = "<group>"; };
 		4BA703AF1D42FBB8008E27A7 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		4BA703B01D42FBB8008E27A7 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		4BA703B11D42FBB8008E27A7 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -82,8 +87,6 @@
 		4BA703D21D42FBB8008E27A7 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		4BA703E41D42FBC6008E27A7 /* XHNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNetwork.h; sourceTree = "<group>"; };
 		4BA703E51D42FBC6008E27A7 /* XHNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNetwork.m; sourceTree = "<group>"; };
-		4BA703EB1D434437008E27A7 /* XHLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLogHelper.h; sourceTree = "<group>"; };
-		4BA703EC1D434437008E27A7 /* XHLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLogHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,8 +213,10 @@
 		4BA703EA1D434437008E27A7 /* XHLogHelper */ = {
 			isa = PBXGroup;
 			children = (
-				4BA703EB1D434437008E27A7 /* XHLogHelper.h */,
-				4BA703EC1D434437008E27A7 /* XHLogHelper.m */,
+				4B950A6F1D45E74100F4BE8C /* NSDictionary+XHLogHelper.h */,
+				4B950A701D45E74100F4BE8C /* NSDictionary+XHLogHelper.m */,
+				4B950A721D45EA7700F4BE8C /* NSArray+XHLogHelper.h */,
+				4B950A731D45EA7700F4BE8C /* NSArray+XHLogHelper.m */,
 			);
 			path = XHLogHelper;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				4BA703D51D42FBB8008E27A7 /* AFSecurityPolicy.m in Sources */,
 				4BA703E01D42FBB8008E27A7 /* UIImageView+AFNetworking.m in Sources */,
 				4BA703D71D42FBB8008E27A7 /* AFURLResponseSerialization.m in Sources */,
+				4B950A711D45E74100F4BE8C /* NSDictionary+XHLogHelper.m in Sources */,
 				4BA703E11D42FBB8008E27A7 /* UIProgressView+AFNetworking.m in Sources */,
 				4BA703DC1D42FBB8008E27A7 /* AFImageDownloader.m in Sources */,
 				4BA703DB1D42FBB8008E27A7 /* AFAutoPurgingImageCache.m in Sources */,
@@ -299,12 +305,12 @@
 				4BA703D31D42FBB8008E27A7 /* AFHTTPSessionManager.m in Sources */,
 				4BA703E21D42FBB8008E27A7 /* UIRefreshControl+AFNetworking.m in Sources */,
 				4BA703E31D42FBB8008E27A7 /* UIWebView+AFNetworking.m in Sources */,
+				4B950A741D45EA7700F4BE8C /* NSArray+XHLogHelper.m in Sources */,
 				4BA703D81D42FBB8008E27A7 /* AFURLSessionManager.m in Sources */,
 				4B14FE441D42F91C0014A493 /* AppDelegate.m in Sources */,
 				4BA703D41D42FBB8008E27A7 /* AFNetworkReachabilityManager.m in Sources */,
 				4B14FE411D42F91C0014A493 /* main.m in Sources */,
 				4BA703DA1D42FBB8008E27A7 /* README.md in Sources */,
-				4BA703ED1D434437008E27A7 /* XHLogHelper.m in Sources */,
 				4BA703DD1D42FBB8008E27A7 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				4BA703E61D42FBC6008E27A7 /* XHNetwork.m in Sources */,
 				4BA703D61D42FBB8008E27A7 /* AFURLRequestSerialization.m in Sources */,

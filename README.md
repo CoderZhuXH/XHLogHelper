@@ -1,56 +1,38 @@
 # XHLogHelper
-* JSON输出自动进行如下转换:<br>
+## 你只需要将XHLogHelper添加到工程即可,自动工作,不用添加任何代码
+* `数组`及`字典`NSLog输出自动进行如下转换:<br>
 * 1.补全缺失`""`,
 * 2.数组`( )`转换为`[ ]`,
 * 3.中文`unicode编码`转换为`中文`
+* 4.转换后能直接通过JOSN在线校验及格式化
 
 ###技术交流群(群号:537476189)
-
 ###推荐一个json在线校验格式化网站:http://json.cn/
-
-##效果(打印服务器返回数据)
-####转换前
+##效果
+####未导入XHLogHelper前,NSLog输出服务器返回Json是这样滴:
 *    1.部分""缺失
 *    2.数组显示为() 
 *    3.中文不能正常显示
-*    4.json在线格式化报错
-
 ![image](http://d3.freep.cn/3tb_160723145837gsc9569478.png)
 
-####转换后
+*    4.json在线格式化报错<br>
+
+![image](http://d2.freep.cn/3tb_160725151820jt70569478.png)
+
+####导入XHLogHelper后,NSLog输出服务器返回Json数据如下:
 *    1.自动补全"" 
 *    2.数组()转为[] 
 *    3.中文显示正常
-*	 4.可进行json在线格式化
 
 ![image](http://d3.freep.cn/3tb_1607231458376bo0569478.png)
 
-### 版本记录(持续更新)
+*    4.可进行json在线格式化<br>
 
-#### 2016.07.23  Version 1.0(发布)
+![image](http://d3.freep.cn/3tb_160725151819bwdr569478.png)
 
 ## 使用方法:
-### 1.只需调用XHJson( ),传入服务器返回Json字典,就可完成一键转换
-```objc
-//转换为标准JSON格式,方便查看及校验格式化
-//1.补全缺失""
-//2.数组( )转换为[ ]
-//3.中文unicode编码转换为 中文
-NSLog(@"转换后:\n%@",XHJson(dic));
-```
-### 2.示例
-```objc
-[XHNetwork POST:URLString parameters:nil success:^(id responseObject) {
-       
-        NSDictionary *dic = responseObject;
-        //普通输出
-        NSLog(@"转换前:\n%@",dic);
-        //转换输出
-        NSLog(@"转换后:\n%@",XHJson(dic));
+### 1.只需XHLogHelper项目添加到工程中即可,自动工作,不用添加任何代码.
 
-    } failure:^(NSError *error) { 
-    }];
-```
 ##  安装
 ### 手动添加:<br>
 *   1.将 XHLogHelper 文件夹添加到工程目录中<br>

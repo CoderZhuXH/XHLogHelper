@@ -8,11 +8,11 @@
 
 #import "ViewController.h"
 #import "XHNetwork.h"
-#import "XHLogHelper.h"
 
 #define URLString @"http://www.qinto.com/wap/index.php?ctl=article_cate&act=api_app_getarticle_cate&num=1&p=1"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *textLab;
 
 @end
 
@@ -22,7 +22,9 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"XHLogHelper";
-        
+    
+    self.textLab.text = @"详细说明见Github:\n  https://github.com/CoderZhuXH/XHLogHelper";
+    
     [self requestTest];
     
     // Do any additional setup after loading the view from its nib.
@@ -33,14 +35,8 @@
        
         NSDictionary *dic = responseObject;
         
-        NSLog(@"转换前:\n%@",dic);
-        
-        //转换为标准JSON格式,方便查看及校验格式化
-        //1.补全缺失""
-        //2.数组()转换为[]
-        //3.中文unicode编码转换为 中文
-        NSLog(@"转换后:\n%@",XHJson(dic));
-        
+        NSLog(@"输出:\n%@",dic);
+
     } failure:^(NSError *error) {
         
     }];
