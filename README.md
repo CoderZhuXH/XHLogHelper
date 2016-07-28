@@ -1,6 +1,6 @@
 # XHLogHelper
 ## 你只需要将XHLogHelper添加到工程即可,自动工作,不用添加任何代码
-* `数组`及`字典`NSLog输出自动进行如下转换:<br>
+* `JOSN字典`NSLog输出时自动进行如下转换:<br>
 * 1.补全缺失`""`,
 * 2.数组`( )`转换为`[ ]`,
 * 3.中文`unicode编码`转换为`中文`
@@ -12,7 +12,7 @@
 ####未导入XHLogHelper前,NSLog输出服务器返回Json是这样滴:
 *    1.部分""缺失
 *    2.数组显示为() 
-*    3.中文不能正常显示
+*    3.unicode编码中文不能正常显示
 *	 如下:
 
 ![image](http://d3.freep.cn/3tb_160723145837gsc9569478.png)
@@ -24,7 +24,7 @@
 ####导入XHLogHelper后,NSLog输出服务器返回Json数据如下:
 *    1.自动补全"" 
 *    2.数组()转为[] 
-*    3.中文显示正常
+*    3.unicode编码中文显示正常
 *    如下:
 
 ![image](http://d3.freep.cn/3tb_1607231458376bo0569478.png)
@@ -52,3 +52,5 @@
 
 ##  许可证
     XHLogHelper 使用 MIT 许可证，详情见 LICENSE 文件
+###  更详细介绍,见我简书上的一篇文章
+*    文章地址:http://www.jianshu.com/p/b6bb983e39da
