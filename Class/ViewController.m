@@ -34,7 +34,7 @@
     [XHNetwork POST:URLString parameters:nil success:^(id responseObject) {
        
         NSDictionary *dic = responseObject;
-        
+
         NSLog(@"输出:\n%@",dic);
 
     } failure:^(NSError *error) {
