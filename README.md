@@ -9,29 +9,20 @@
 ###技术交流群(群号:537476189)
 ###推荐一个json在线校验格式化网站:http://json.cn/
 ##效果
-####未导入前,Xcdoe NSLog输出服务器返回Json是这样滴:
-*    1.部分""缺失
-*    2.数组显示为() 
-*    3.unicode编码中文不能正常显示
-*	 如下:
+####1.未导入前,Xocde JSON数据正常NSLog输出,和copy到JOSN在线格式化工具情况如下:
 
-![image](http://d3.freep.cn/3tb_160723145837gsc9569478.png)
+![image](http://upload-images.jianshu.io/upload_images/2229730-d9bb01214aa6065a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-*    4.json在线格式化报错,如下:<br>
+####2.导入XHLogHelper后,NSLog输出和JSON数据格式化效果如下:
 
-![image](http://d2.freep.cn/3tb_160725151820jt70569478.png)
+![image](http://upload-images.jianshu.io/upload_images/2229730-c3d0541fa455e1a5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-####导入XHLogHelper后,NSLog输出服务器返回Json数据如下:
-*    1.自动补全"" 
-*    2.数组()转为[] 
-*    3.unicode编码中文显示正常
-*    如下:
-
-![image](http://d3.freep.cn/3tb_1607231458376bo0569478.png)
-
-*    4.可进行json在线格式化,如下:<br>
-
-![image](http://d3.freep.cn/3tb_160725151819bwdr569478.png)
+####3.效果很明显了:
+*	1.自动补全字段缺失""
+*	2.自动转换数组( )为[ ]
+*	3.自动转换unicode编码为中文
+*	4.能正常进行JSON数据格式化
+*	5.自动转换,NSLog不用添加任何更改.
 
 ## 使用方法:
 ### 1.只需XHLogHelper项目添加到工程中即可,自动工作,不用添加任何代码.
