@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "XHLogHelper"
-  s.version      = "2.2"
-  s.summary      = "NSLog输出时,自动进行如下转换-1补全缺失引号,2数组( )转换为[ ],3中文unicode编码转换为中文"
+  s.version      = "2.3.0"
+  s.summary      = "NSLog输出NSDictionary,自动进行如下转换-1补全缺失引号,2数组( )转换为[ ],3中文unicode编码转换为中文"
   s.homepage     = "https://github.com/CoderZhuXH/XHLogHelper"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Zhu Xiaohui" => "977950862@qq.com"}
